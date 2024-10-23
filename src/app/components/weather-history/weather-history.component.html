@@ -1,0 +1,13 @@
+<div *ngIf="!loading" class="chart-container">
+  <apx-chart
+    [series]="chartOptions.series"
+    [chart]="chartOptions.chart"
+    [xaxis]="chartOptions.xaxis"
+    [dataLabels]="chartOptions.dataLabels"
+    [title]="chartOptions.title"
+  ></apx-chart>
+</div>
+
+<div *ngIf="loading">
+  <p>Loading weather history...</p>
+</div>

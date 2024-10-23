@@ -1,0 +1,14 @@
+.chart-container {
+    display: flex;                 /* Use flexbox to center content */
+    justify-content: center;       /* Center horizontally */
+    align-items: center;           /* Center vertically */
+    height: 100%;                  /* Adjust height if needed */
+    padding: 20px;                 /* Optional padding around the chart */
+  }
+  
+  apx-chart {
+    max-width: 600px;             /* Set a maximum width for the chart */
+    width: 100%;                  /* Make the chart responsive */
+    height: 400px;                /* Set a fixed height for the chart */
+  }
+  

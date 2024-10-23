@@ -1,0 +1,28 @@
+<div *ngIf="weatherData && weatherData.length">
+    <div class="card-container">
+      <div *ngFor="let weather of weatherData" class="weather-card small-card">
+        <div class="card-body">
+          <h5 class="card-title">{{ weather.cityName }}</h5>
+          <p class="card-text">Temperature: {{ weather.temperature }} °C</p>
+          <p class="card-text">Feels Like: {{ weather.feelsLike }}</p>
+          <p class="card-text">Weather Condition: {{ weather.weatherCondition }}</p>
+          <p class="card-text">Max Temp: {{ weather.maxTemp }} °C</p>
+          <p class="card-text">Min Temp: {{ weather.minTemp }} °C</p>
+          <p class="card-text">Description: {{ weather.description }}</p>
+          <p class="card-text">Last Updated: {{ weather.dateTime | date:'medium' }}</p>
+
+          <div *ngIf="weather.temperature > 30" class="alert alert-warning">
+            <strong style="color: red;">Alert!</strong> The temperature has exceeded 30°C: Current temperature is {{ weather.temperature }}°C : City : {{ weather.cityName }}.
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Show loading state -->
+  <div *ngIf="loading" class="loading-message">Loading weather data...</div>
+  
+  <!-- Show error message if data fetch fails -->
+  <div *ngIf="error" class="error-message">{{ error }}</div>
+  

@@ -1,0 +1,73 @@
+body {
+    background-color: #001f3f; /* Navy Blue */
+    margin: 0; /* Reset default margins */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+    color: #ffffff; /* Optional: Set text color to white for contrast */
+}
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow the cards to wrap to the next row */
+    justify-content: space-around; /* Space between cards */
+  }
+  
+  .weather-card {
+    margin: 10px; /* Margin around cards */
+    border: none; /* Remove the default border */
+    border-radius: 10px; /* Round the corners */
+    transition: transform 0.2s;
+    color: #fff; /* Text color for better contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow for depth */
+    width: calc(30% - 20px); /* Set width to approximately 30% of the container, minus margins */
+    height: 250px; /* Set a fixed height for the cards */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Space out content evenly */
+    padding: 15px; /* Add padding for content */
+    overflow: hidden; /* Prevent overflow of text */
+    background-color: #1e90ff; /* New background color for cards */
+  }
+  
+  .weather-card h5 {
+    margin: 0; /* Remove margin from title */
+    font-size: 1.2em; /* Slightly larger font size for the title */
+  }
+  
+  .weather-card p {
+    margin: 5px 0; /* Add vertical spacing between paragraphs */
+    font-size: 0.9em; /* Set font size for better readability */
+  }
+  
+  .weather-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Gradient background for cards */
+  .weather-card {
+    background: linear-gradient(to right, #1e90ff, #00bfff); /* Gradient from blue to lighter blue */
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-size: 1.5em;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  .alert {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+  }
+  
+  
