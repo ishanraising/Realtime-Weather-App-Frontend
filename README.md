@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Real-time Weather Application Frontend
 
 This project is the frontend for a real-time weather application, built using Angular. The frontend displays the current weather data for various cities and provides a visual representation of historical weather data.
@@ -83,3 +84,6 @@ For any questions or feedback, feel free to reach out to me:
 
 
 
+=======
+# Realtime-Weather-App-Frontend
+>>>>>>> 03386c7ed86b71a4c48d61c378d8afe6a569493b
