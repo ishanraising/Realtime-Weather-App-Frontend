@@ -37,9 +37,9 @@ git clone https://github.com/ishanraising/Realtime-Weather-App-Frontend
 ### Step 3 : Install Dependencies 
    Open Once the project is open in VS Code, open a new terminal (you can do this from Terminal > New Terminal in VS Code) 
    and run the following command to install all necessary dependencies:
-   ```bash
-      npm install
-   ```
+```bash
+npm install
+```
 
 ### Step 4: Run the Application
 
