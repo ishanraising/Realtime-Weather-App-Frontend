@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Real-time Weather Application Frontend
 
 This project is the frontend for a real-time weather application, built using Angular. The frontend displays the current weather data for various cities and provides a visual representation of historical weather data.
@@ -26,7 +26,7 @@ Follow these steps to install and run the Angular frontend application:
 Clone the repository to your local machine.
 
 ```bash
-git clone <https://github.com/ishanraising/Realtime-Weather-App-Frontend>
+git clone https://github.com/ishanraising/Realtime-Weather-App-Frontend
 ```
 
 ### Step 2 : Open the project in Vs Code
@@ -37,7 +37,9 @@ git clone <https://github.com/ishanraising/Realtime-Weather-App-Frontend>
 ### Step 3 : Install Dependencies 
    Open Once the project is open in VS Code, open a new terminal (you can do this from Terminal > New Terminal in VS Code) 
    and run the following command to install all necessary dependencies:
-   (`` `npm install` ``)
+   ```bash
+      npm install
+   ```
 
 ### Step 4: Run the Application
 
@@ -80,10 +82,3 @@ For any questions or feedback, feel free to reach out to me:
 
 
 
-
-
-
-
-=======
-# Realtime-Weather-App-Frontend
->>>>>>> 03386c7ed86b71a4c48d61c378d8afe6a569493b
